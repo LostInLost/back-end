@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "username": "user-1",
+      "name": "anonim-1",
+      "email": "user1@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "username": "user-2",
+      "name": "anonim-2",
+      "email": "user2@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "username": "user-3",
+      "name": "anonim-3",
+      "email": "user3@gmail.com",
+      "password": "12345",
+      "id": 3
+    }
+  ],
+  "statements": [
+    {
+      "userId": 1,
+      "statement": "Usaha Tidak Menghianati Hasil",
+      "tagId": 1,
+      "vote_up": 1,
+      "vote_down": 1,
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "statement": "Hidup Seperti Larry",
+      "tagId": 1,
+      "vote_up": 0,
+      "vote_down": 0,
+      "id": 2
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "motivasi"
+    },
+    {
+      "id": 2,
+      "name": "politik"
+    }
+  ],
+  "votes": [
+    {
+      "statementId": 1,
+      "userId": 2,
+      "vote": "up",
+      "id": 1
+    },
+    {
+      "statementId": 1,
+      "userId": 3,
+      "vote": "down",
+      "id": 2
+    },
+    {
+      "statementId": 2,
+      "userId": 1,
+      "vote": "up",
+      "id": 3
+    },
+    {
+      "statementId": 2,
+      "userId": 3,
+      "vote": "up",
+      "id": 4
+    }
+  ]
+}
